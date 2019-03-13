@@ -10,7 +10,7 @@ class Question {
 // such as: display question, add question to list, remove question from list
     class UI {
         static displayQuestions() {
-             storedQuestions = [
+             StoredQuestions = [
                 {
                     question: "What does the constructor function do?",
                     answer:""
@@ -21,6 +21,7 @@ class Question {
                 },
 
             ]
+            const questions = StoredQuestions;
         }
     }
 // Store Class: Handles Storage
